@@ -45,6 +45,12 @@ Mashup. Many APIs are available. API calls.
 
 Spotify For-Developers. SDK(Software Development Kit).
 API provides a set of endpoints, each with its own unique path. 
+Curl, which you can use from your command line. 
+Authentication Error Object. Response Status Codes.  
+OAuth Token. GET Token. Don't let your Token out. 
 
+Curl is an open source tool that is used to send data back and forth and it runs locally on your computer. 
+Terminal. Tokens can expire. Copy Pasta.  
+     
 ''' 
 
