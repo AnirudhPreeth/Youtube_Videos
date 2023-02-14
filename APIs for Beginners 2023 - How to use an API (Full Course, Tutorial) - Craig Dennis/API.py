@@ -51,6 +51,8 @@ OAuth Token. GET Token. Don't let your Token out.
 
 Curl is an open source tool that is used to send data back and forth and it runs locally on your computer. 
 Terminal. Tokens can expire. Copy Pasta.  
-     
+URL Encoding. Some APIs are the product.   
+
+Twilio (Company).         
 ''' 
 
