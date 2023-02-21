@@ -205,3 +205,75 @@ int main()
     printf("Area of the given triangle is: %6.2f", AREA);
 }
 
+//8. Calculate Simple Interest -> P*N*R/100.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    float SI, P, N, R;
+    printf("Enter values of P, N, R: ");
+    scanf("%f%f%f", &P, &N, &R);
+    SI = (P*N*R)/ 100;
+    printf("Simple Interest: %6.2f", SI);
+}
+
+//9. Find square and cube. 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int n, square, cube;
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    square = n*n;
+    cube = n*n*n;
+    printf("The Square is: %d and Cube is: %d", square, cube);
+}
+
+//10. Calculate the total average - Total=m1+m2+m3, Average = Total/3.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int roll_no, m1, m2, m3, total;
+    float average;
+    printf("Enter roll no: ");
+    scanf("%d", &roll_no);
+    printf("Enter Marks 1, Marks 2, Marks 3: ");
+    scanf("%d%d%d", &m1, &m2, &m3);
+    total = m1+m2+m3;
+    average = total/3.0;
+    printf("\nStudent Roll No: %d", roll_no);
+    printf("\nMarks 1: %d, \nMarks 2: %d, \nMarks 3: %d", m1, m2, m3);
+    printf("\nTotal: %d", total);
+    printf("\nAverage: %f", average);
+}
+
+//11. Swap two numbers.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a, b, temp;
+    printf("Enter the two numbers: ");
+    scanf("%d%d", &a, &b);
+    printf("\nBefore Swapping..\na=%d, b=%d", a, b);
+    temp =a;
+    a =b;
+    b =temp;
+    printf("After swapping...\na=%d, b=%d", a,b);
+}
+
+/*
+Escape Sequences -
+\n - New Line.
+\t - Tab(Horizontal).
+\\ - Backlash.
+\' - Single Quote.
+\" - Double Quote.
+\? - Question Mark.
+\b - Backspace.
+\0 - Null. 
+
+Escape Sequences are those   
+*/
