@@ -118,4 +118,90 @@ C = A/B
 C = A%B
 */
 
-//2. 
+//2. Addition. 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a, b, c;
+    printf("Enter number 1:");
+    scanf("%d", &a);
+    printf("Enter number 2:", &b);
+    scanf("%d", &b);
+    c = a+b;
+    printf("Addition of the two numbers is: %d", c);
+}
+
+//3. Subtraction. 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a, b, c;
+    printf("Enter number 1:");
+    scanf("%d", &a);
+    printf("Enter number 2:", &b);
+    scanf("%d", &b);
+    c = a-b;
+    printf("Subtraction of the two numbers is: %d", c);
+}
+
+//4. Multiplication.  
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a, b, c;
+    printf("Enter number 1:");
+    scanf("%d", &a);
+    printf("Enter number 2:", &b);
+    scanf("%d", &b);
+    c = a*b;
+    printf("Multiplication of the two numbers is: %d", c);
+}
+
+//5. Division.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    float a, b, c;
+    printf("Enter number 1:");
+    scanf("%f", &a);
+    printf("Enter number 2:", &b);
+    scanf("%f", &b);
+    c = a/b;
+    printf("Division of the two numbers is: %f", c);
+}
+
+/*
+int / int => int
+int / float => float
+float / int => float
+float / float => float
+*/
+
+//6. Area of a circle = pi*r*r (r-squared).
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    float AREA, R;
+    printf("Enter Radius: ");
+    scanf("%f", &R);
+    AREA = 3.14*R*R;
+    printf("Area of the given circle is: %2f", AREA);
+}
+
+//7. Area(Triangle) = 1/2*b*h.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    float AREA, B, H;
+    printf("Enter Base and Height: ");
+    scanf("%f%f", &B, &H);
+    AREA = 0.15*B*H;
+    printf("Area of the given triangle is: %6.2f", AREA);
+}
+
