@@ -130,6 +130,7 @@ int main()
     scanf("%d", &b);
     c = a+b;
     printf("Addition of the two numbers is: %d", c);
+    return 0;
 }
 
 //3. Subtraction. 
@@ -144,6 +145,7 @@ int main()
     scanf("%d", &b);
     c = a-b;
     printf("Subtraction of the two numbers is: %d", c);
+    return 0;
 }
 
 //4. Multiplication.  
@@ -158,6 +160,7 @@ int main()
     scanf("%d", &b);
     c = a*b;
     printf("Multiplication of the two numbers is: %d", c);
+    return 0;
 }
 
 //5. Division.
@@ -172,6 +175,7 @@ int main()
     scanf("%f", &b);
     c = a/b;
     printf("Division of the two numbers is: %f", c);
+    return 0;
 }
 
 /*
@@ -191,6 +195,7 @@ int main()
     scanf("%f", &R);
     AREA = 3.14*R*R;
     printf("Area of the given circle is: %2f", AREA);
+    return 0;
 }
 
 //7. Area(Triangle) = 1/2*b*h.
@@ -203,6 +208,7 @@ int main()
     scanf("%f%f", &B, &H);
     AREA = 0.15*B*H;
     printf("Area of the given triangle is: %6.2f", AREA);
+    return 0;
 }
 
 //8. Calculate Simple Interest -> P*N*R/100.
@@ -215,6 +221,7 @@ int main()
     scanf("%f%f%f", &P, &N, &R);
     SI = (P*N*R)/ 100;
     printf("Simple Interest: %6.2f", SI);
+    return 0;
 }
 
 //9. Find square and cube. 
@@ -228,6 +235,7 @@ int main()
     square = n*n;
     cube = n*n*n;
     printf("The Square is: %d and Cube is: %d", square, cube);
+    return 0;
 }
 
 //10. Calculate the total average - Total=m1+m2+m3, Average = Total/3.
@@ -247,6 +255,7 @@ int main()
     printf("\nMarks 1: %d, \nMarks 2: %d, \nMarks 3: %d", m1, m2, m3);
     printf("\nTotal: %d", total);
     printf("\nAverage: %f", average);
+    return 0;
 }
 
 //11. Swap two numbers.
@@ -262,6 +271,7 @@ int main()
     a =b;
     b =temp;
     printf("After swapping...\na=%d, b=%d", a,b);
+    return 0;
 }
 
 /*
@@ -275,5 +285,158 @@ Escape Sequences -
 \b - Backspace.
 \0 - Null. 
 
-Escape Sequences are those   
+Escape Sequences are those which contains a backslash (\) symbol followed by one of the escape sequence characters.
 */
+
+//12. Simple program to understand escape sequence. 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    printf("http:\\\\www.kodegod.com\\learn-programming");
+    return 0;
+}
+
+// In the above program for a single \ we do \\ and for the other one, we do another \\. Hence \\\\.
+
+//13. Draw a simple tree using escape sequences. 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    printf("\n");
+    printf(" /\\ \n");
+    printf(" //\\\\ \n");
+    printf(" ///\\\\\\ \n");
+    printf("////\\\\\\\\ \n");
+    printf(" ||| \n");
+    printf(" ||| \n");
+    return 0;
+}
+
+/*
+Decision Control Structures - 
+Condition is either true or false. 
+Valid conditions -
+A>B
+A>10
+0  - False.
+1  - True. 
+
+if statement -
+if (condition)
+{
+    instruction 1; 
+    instruction 2;
+    ...
+}
+OR
+if (condition)
+  instruction 1;
+
+if...else statement - 
+if (condition)
+{
+    instruction 1;
+    instruction 2;
+    ...
+}
+else
+{
+    instruction 3;
+    instruction 4;
+    ...
+}
+OR
+if (condition)
+  instruction 1;
+else
+  instruction 2;
+
+if...else if...else
+if (condition)
+{
+    instruction 1;
+    instruction 2;
+    ...
+}
+else if(condition)
+{
+    instruction 3;
+    instruction 4;
+    ...
+}
+else 
+{
+    instruction 5;
+    instruction 6;
+    ...
+}
+OR
+if (condition)
+  instruction 1;
+else if(condition)
+  instruction 2;
+else 
+  instruction 3;
+*/
+
+//14. Find the largest of two numbers. 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a, b;
+    printf("Enter the numbers: ");
+    scanf("%d%d", &a, &b);
+    if(a>b)
+    printf("Largest value is ...%d", a);
+    else 
+    printf("Largest value is ...%d", b);
+    return 0;
+}
+
+//15. Check whether number is positive or negative. 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int n;
+    printf("Enter the number...");
+    scanf("%d", &n);
+    if(n>0)
+       printf("Given number is positive.");
+    else if(n>0)
+       printf("Given number is negative.");
+    else
+       printf("Given number is 0.");
+    return 0;
+}
+
+//16. Check whether number is greater than or lesser than 10. 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int n;
+    printf("Enter the number...");
+    scanf("%d", &n);
+    if(n>10)
+      printf("Number is greater than 10.");
+    else if(n<10)
+      printf("Number is lesser than 10.");
+    else
+      printf("Number is 10.");
+    return 0;
+}
+
+//17. Check whether number is even or odd. 
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int n;
+    printf("");
+    return 0;
+}
